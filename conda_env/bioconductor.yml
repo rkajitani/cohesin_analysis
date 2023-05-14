@@ -1,0 +1,8 @@
+channels:
+  - main
+  - anaconda
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bioconductor-ruvseq
