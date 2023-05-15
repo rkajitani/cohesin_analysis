@@ -33,7 +33,7 @@ _EOS
 source activate deg_analysis_20210829
 
 base_dir=$PWD
-work_dir=/scratch/kajitani/$$
+work_dir=/scratch/$$
 mkdir -p $work_dir
 cd $work_dir
 
