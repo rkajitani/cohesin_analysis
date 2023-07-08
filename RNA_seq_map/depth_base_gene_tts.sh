@@ -17,7 +17,7 @@ ref_fa=$ref_fa
 
 _EOS
 
-		cat <<'_EOS' >>depth_base_gene_tts${d}_3.sh
+		cat <<'_EOS' >>depth_base_gene_tts${d}.sh
 perl -pne 's/^(\S+)_down/\1/g' ${s}.base_down${d}_cpm.tsv >tmp.tsv
 ../join_tsv_fixed_len.py ${s}.base_cpm.tsv tmp.tsv ${d} >${s}.base_tts${d}_cpm.tsv
 rm tmp.tsv
